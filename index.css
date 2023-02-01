@@ -17,6 +17,10 @@ body {
     align-items: center;
 }
 
+button:focus{
+    outline: none;
+}
+
 .calculator-container{
     width: 500px;
     height: 700px;
