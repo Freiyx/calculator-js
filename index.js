@@ -122,6 +122,11 @@ document.addEventListener('keydown', (e) => {
 
 //number handler 
 function numberHandler(numValue){
+    if (currentNum.length > 30){
+        alert('Boi this calculator aint from tesla')
+        return
+    }
+
     if (equalMode){
         currentNum = numValue
         equalMode = false

@@ -41,7 +41,8 @@ button:focus{
     justify-content: space-around;
     padding: 0 10px;
     font-size: 1.125rem;
-    color: #636262;    
+    color: #636262;
+    overflow: hidden;
 }
 
 .calculated-result{
